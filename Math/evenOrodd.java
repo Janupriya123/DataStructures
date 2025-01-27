@@ -13,5 +13,6 @@ class A
      { 
        System.out.println("Odd");
      }
+      sc.close();
   }
 }
