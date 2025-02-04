@@ -1,4 +1,4 @@
- Method 1 : Using Priority Queue Or Min Heap // Method 1
+ Method 1 : Using Priority Queue Or Min Heap // Method 1 
 
 import java.util.Scanner; 
 import java.util.Queue;
