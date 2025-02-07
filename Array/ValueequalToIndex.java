@@ -1,6 +1,6 @@
 Using Loops // Using loops
 
-  import java.util.Scanner; 
+import java.util.Scanner; 
 class A
   {
     public static void main(String[] args)
