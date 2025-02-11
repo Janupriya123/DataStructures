@@ -6,7 +6,7 @@ class A
     {
       Scanner sc=new Scanner(System.in);
       int n=sc.nextInt(); // Size of the Array
-      int nums[]=new int[n];
+      int nums[]=new int[n]; 
       int target=sc.nextInt(); // get target element
       for(int i=0;i<n;i++)
         {
