@@ -4,7 +4,7 @@ public class Main {
         Scanner sc = new Scanner(System.in); 
         
         System.out.print("Enter the number: ");
-         int n=sc.nextInt();
+         int n=sc.nextInt(); 
          int a=n; // store the copy of original number
          int res=0;
          while(n!=0) 
