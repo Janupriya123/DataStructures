@@ -6,7 +6,7 @@ class A
     public static void main(String[] args) 
     {
       Scanner sc=new Scanner(System.in);
-      int x=sc.nextInt(); // get input from User
+      int x=sc.nextInt(); // get input from User 
       int c=(int)Math.sqrt(x); // use Math.sqrt function 
       System.out.print("Square root of x is:"+c);
       sc.close();
