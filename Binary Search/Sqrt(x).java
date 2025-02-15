@@ -3,7 +3,7 @@ Method 1 : Using Built-in function // Method 1
 import java.util.Scanner;
 class A
   {
-    public static void main(String[] args)
+    public static void main(String[] args) 
     {
       Scanner sc=new Scanner(System.in);
       int x=sc.nextInt(); // get input from User
