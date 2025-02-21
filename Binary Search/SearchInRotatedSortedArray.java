@@ -1,5 +1,5 @@
 Method 1 : Using loop // Method 1 
-import java.util.Scanner;  
+import java.util.Scanner;   
 class A   
   { 
     public static void main(String[] args)
