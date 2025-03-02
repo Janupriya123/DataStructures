@@ -1,6 +1,6 @@
 Method 1 : Using Nested Loops // Method 1
 import java.util.Scanner;
- class Main
+ class Main 
  {
   public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
