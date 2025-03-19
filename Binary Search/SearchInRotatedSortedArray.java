@@ -1,4 +1,4 @@
-Method 1 : Using loop // Method 1 
+Method 1 : Using loop // Method 1  
 import java.util.Scanner;   
 class A     
   { 
