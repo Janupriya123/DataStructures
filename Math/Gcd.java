@@ -7,7 +7,7 @@ class A
       int a=sc.nextInt(); 
       int b=sc.nextInt();
       int temp=0;
-      while(b!=0)
+      while(b!=0) 
         {
           temp=b; // store value of b in temp
           b=a%b; // div a by b
