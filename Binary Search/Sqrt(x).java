@@ -1,5 +1,5 @@
 Method 1 : Using Built-in function // Method 1
-
+ 
 import java.util.Scanner;
 class A 
   {
