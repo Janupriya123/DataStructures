@@ -1,36 +1,39 @@
-class Solution {
-    // Function for finding maximum and value pair
-public static int longestSubarray(int a[], int k){
-        // Complete the function
-        int n=a.length;
-          Map<Integer, Integer> preSumMap = new HashMap<>();
+import java.util.Scanner;
+import java.util.HashMap;
+import java.util.HashSet;
+class A
+  {
+public static void main(String[] args)
+  {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int k=sc.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<n;i++)
+          {
+            a[i]=sc.nextInt();
+          }
+        Map<Integer, Integer> ans = new HashMap<>();
         int sum = 0;
-        int maxLen = 0;
+        int max= 0;
         for (int i = 0; i < n; i++) {
-            //calculate the prefix sum till index i:
-            sum += a[i];
-
-            // if the sum = k, update the maxLen:
-            if (sum == k) {
-                maxLen = Math.max(maxLen, i + 1);
+              sum += a[i];
+             if (sum == k) 
+             {
+                maxLen = Math.max(max,i + 1);
             }
-
-            // calculate the sum of remaining part i.e. x-k:
             int rem = sum - k;
-
-            //Calculate the length and update maxLen:
-            if (preSumMap.containsKey(rem)) {
-                int len = i - preSumMap.get(rem);
-                maxLen = Math.max(maxLen, len);
+            if ( ans.containsKey(rem)) 
+            {
+                int len = i-ans.get(rem);
+                max= Math.max(max, len);
             }
-
-            //Finally, update the map checking the conditions:
-            if (!preSumMap.containsKey(sum)) {
-                preSumMap.put(sum, i);
+             if (! ans.containsKey(sum)) 
+             {
+                 ans.put(sum, i);
             }
         }
-
-        return maxLen;
-        
+         System.out.println("Longest SubarryaSum:"+max);
+         sc.close();
     }
 }
