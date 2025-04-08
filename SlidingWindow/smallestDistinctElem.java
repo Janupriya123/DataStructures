@@ -1,4 +1,13 @@
-HashSet<Character>t=new HashSet<>();
+import java.util.Scanner;
+import java.util.HashMap;
+import java.util.HashSet;
+class A
+  {
+public static void main(String[] args)
+  {
+       Scanner sc=new Scanner(System.in);
+       String s=sc.nextLine();
+       HashSet<Character>t=new HashSet<>();
        HashMap< Character,Integer>ans=new HashMap<>();
        for(char c:s.toCharArray())
        t.add(c);
@@ -27,4 +36,7 @@ HashSet<Character>t=new HashSet<>();
            }
            r++;
        }
-       return min;
+       System.out.println("Smallest Distinct Elements"+min);
+       sc.close();
+  }
+  }
