@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.HashMap;
-class A 
+class A  
   {
 public static void main(String[] args)
   {
