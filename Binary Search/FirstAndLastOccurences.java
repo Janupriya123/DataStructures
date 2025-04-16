@@ -1,6 +1,6 @@
 Method 1 : Using counting // Method 1
   
-import java.util.Scanner;         
+import java.util.Scanner;          
 import java.util.ArrayList;
 class A  
   {  
