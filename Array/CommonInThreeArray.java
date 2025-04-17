@@ -1,5 +1,5 @@
 import java.util.Scanner;  
-class  CommonInThreeArray
+class  CommonInThreeArray 
   {
     public static void main(String[] args)
     {
