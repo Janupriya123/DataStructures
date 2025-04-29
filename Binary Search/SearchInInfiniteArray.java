@@ -1,3 +1,10 @@
+import java.util.Scanner;            
+class A  
+  {  
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt(); 
         long l=0;
         long r= Long.MAX_VALUE;
         long mid=0;
@@ -15,4 +22,8 @@
                   l=mid+1;
               }
         }
-        return ans;
+        System.out.println(ans);
+        sc.close();
+    }
+  }
+            
