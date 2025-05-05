@@ -1,7 +1,7 @@
 Method 1 : Using HashMap // Method 1
 
 import java.util.Scanner;
-import java.util.Arrays; 
+import java.util.Arrays;  
 class A
   {
     public static void main(String[] args)
