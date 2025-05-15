@@ -5,7 +5,7 @@ public class A {
         int n = sc.nextInt();
         int[] arr = new int[n];
        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
+            arr[i] = sc.nextInt(); 
         }
        int k = sc.nextInt();
        ArrayList<Integer>  a = new ArrayList<>();
