@@ -1,7 +1,7 @@
 1.Method 1:Using Loops
 import java.util.Scanner;
 class A 
-  {
+  { 
     public static void main(String[] args) 
     { 
       Scanner sc=new Scanner(System.in);
