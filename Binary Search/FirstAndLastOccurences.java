@@ -1,7 +1,7 @@
 Method 1 : Using counting // Method 1
      
 import java.util.Scanner;            
-import java.util.ArrayList;    
+import java.util.ArrayList;     
 class A   
   {  
     public static void main(String[] args)
